@@ -5,7 +5,7 @@
         $name=$_POST["name"];
         $email=$_POST["email"];
         $message=$_POST["message"];
-        $gender=$POST["gender"];
+        $gender=$_POST["Gender"];
 
         $sql ="INSERT INTO dataa(nama, email, pesan, Gender) VALUES ('$name','$email','$message','$gender')";
 
@@ -50,11 +50,11 @@
 
         <h3>Select Your Gender</h3>
         <label class="radio-container">Male
-            <input type="radio" name="gender" value="male">
+            <input type="radio" name="Gender" value="male">
             <span class="checkmark"></span>
         </label>
         <label class="radio-container">Female
-            <input type="radio" name="gender" value="female">
+            <input type="radio" name="Gender" value="female">
             <span class="checkmark"></span>
         </label>
 
