@@ -48,6 +48,16 @@
         <label for="message">Message</label>
         <textarea id="message" name="message" placeholder="Your message..."></textarea>
 
+        <h3>Select Your Gender</h3>
+        <label class="radio-container">Male
+            <input type="radio" name="gender" value="male">
+            <span class="checkmark"></span>
+        </label>
+        <label class="radio-container">Female
+            <input type="radio" name="gender" value="female">
+            <span class="checkmark"></span>
+        </label>
+
         <button type="submit" name="submit">Submit! </button>
 </form>
 <script src="script.js"></script>
