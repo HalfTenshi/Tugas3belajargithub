@@ -1,0 +1,173 @@
+body{
+    background: linear-gradient(90deg, #1E397E 0%, #2973AC 100%);
+}
+.a{
+    width: 1146px;
+    height: 724px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+    padding-left:50px;
+}
+.b{
+    width: 349px;
+    height: 724px;
+    background: #255F9C;
+    box-shadow: -4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left:100px;
+    margin-right:0px;
+}
+.c{
+    color: #FFF;
+    font-family: "Gotham Black";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 200px;
+    margin-left:75px;
+}
+.c2{
+    color: #FFF;
+    font-family: "Gotham Black";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left:75px;
+    margin-top: -25px;
+}
+.garis{
+    width: 239px;
+    height: 0px;
+    flex-shrink: 0;
+    margin-left:50px;
+}
+.d{
+    color: #FFF;
+    font-family: Gotham light;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left:100px;
+}
+.p{
+    color: #FFF;
+    text-align: center;
+    font-family: "Gotham Light";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left:35px;
+    margin-right:35px;
+    margin-top:-20px;
+}
+/* .judul{
+    text-align:center;
+    color: #1E1E1E;
+    font-family: "Gotham Black";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    white-space:nowrap;
+    margin-bottom:500px;
+    margin-left :500px;
+} */
+.f{
+    color: #FFF;
+    text-align: center;
+    font-family: Gotham;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    /* background-color: #fff; */
+    /* border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); */
+    /* font-family: Arial, sans-serif; */
+}
+
+
+form label {
+    font-family:Gotham;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+/*text inputs and textarea */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* merubah warna border */
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+form button[type="submit"] {
+    display: block;
+    width: 100px;
+    padding: 10px;
+    background-color: #255F9C;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+/* Centering the button */
+form button[type="submit"] {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* merubah warna button */
+form button[type="submit"]:hover {
+    background-color: #3687dd;
+}
+
+#notification {
+    padding: 15px;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: none; 
+}
+
+#notification.show {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
