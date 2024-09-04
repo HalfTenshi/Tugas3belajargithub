@@ -5,8 +5,9 @@
         $name=$_POST["name"];
         $email=$_POST["email"];
         $message=$_POST["message"];
+        $gender=$POST["gender"];
 
-        $sql ="INSERT INTO dataa(nama, email, pesan) VALUES ('$name','$email','$message')";
+        $sql ="INSERT INTO dataa(nama, email, pesan, Gender) VALUES ('$name','$email','$message','$gender')";
 
     if ($conn->query($sql) === TRUE) {
         // Redirect kembali ke form dengan notifikasi berhasil
